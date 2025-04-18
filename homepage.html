@@ -1,0 +1,195 @@
+<html>
+    <head>
+        <title>HomePage</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://localhost/selfprograms/homepage.css">
+        <!--<script src="jquery-3.7.1.min.js"></script>-->
+        <script type="text/javascript" src="http://localhost/selfprograms/home.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+       
+    </head>
+
+    <body> 
+
+        <!--<img src="https://cdn3.iconfinder.com/data/icons/iconic-1/32/play_alt-512.png" id="playyimg" >-->
+        
+        <div style="display:flex;  width:100%;  ">
+        
+                 <img id="panelimage" src="http://localhost/selfprograms/align-justify.png" style="margin-left:20px;margin-top:10px; height:25px; width:25px;cursor: pointer;" onclick="activatepanel()">
+            
+
+                <div style="margin-left: 5px; margin-left: 20px; font-family: proximanova-bold-webfont, Arial, sans-serif; font-size: 14px; margin-top:0; width: 95%;">
+                    <nav class="navbar navbar-default" >
+                        <div class="container-fluid" style="background-color: white; width: 94%; display:flex;">
+                          <div class="navbar-header" >
+                            <a class="navbar-brand" href="http://localhost/selfprograms/homepage.html"  style=" font-family:Ikaros;">GroovGrid</a>
+                          </div>
+                          <ul class="nav navbar-nav" style="display: flex; list-style: none; gap: 20px; white-space: nowrap; margin: 0; padding: 0; margin-left:550px;">
+                           <!--<li class="active"><a href="#">Home</a></li>--> 
+                            <!--<li class="blocking"><a></a></li>-->
+                            <li><a href="http://localhost/selfprograms/new.html">Register</a></li>
+                            <li><a href="http://localhost/selfprograms/Loginpage.html">Login</a></li>
+                            <li><a href="#">Manage Subscription</a></li>
+                            <li><a href="#">Settings</a></li>
+                          </ul>
+                        </div>
+                      </nav>
+                </div>
+        </div>
+    
+        <div id="sidepanel">
+            <nav class="navbar bg-light"  style="display:flex; position: absolute; z-index: 1;width: 250px; height:100%;">
+
+                <ul class="nav flex-column" style=" z-index:3; width: 250px;  font-family: proximanova-bold-webfont, Arial, sans-serif; font-size: 14px;" >
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Libraries</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Plans</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Browse</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Downloads</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" style="font-weight:bold;">Go Premium
+                            <p style="margin-top: 10px; font-weight:normal;">Get Groovit Plus<br>
+                            1 month Trial @ Rs 1</p></a>
+                      </li>
+                  </ul>
+              
+              </nav>
+       </div>
+
+
+        <div class="table-container" style="width:100%; margin-left: auto ; margin-right: auto ;  margin-top: 0px;" id="offover">
+        <table class="table_1">
+            <tr>
+                <td class="barhead" colspan="6" style="font-weight: bold; padding-left:25px; padding-top:30px; padding-bottom:0px; font-family: proximanova-bold-webfont, Arial, sans-serif; font-size: 20px;">Top Playlists</td>
+            </tr>
+            <tr>
+                <td onclick="audio_element()">
+                    <img src="https://i1.sndcdn.com/artworks-tkI8VsLvt3zO45MR-fL5i0Q-t500x500.jpg" class="allimg" height="210px" width="185px">
+                   <p class="beloname" > New Releases</p>  
+                 </td>   
+                 <td>
+                    <img src="https://upload.wikimedia.org/wikipedia/en/f/f2/Taylor_Swift_-_Reputation.png" class="allimg" height="210px" width="185px">
+                    <p class="beloname" > Top Charts</p>
+                </td>
+                 <td>
+                    <img src="https://upload.wikimedia.org/wikipedia/en/2/28/Selena_Gomez_-_Single_Soon.png"  class="allimg" id="overimg" class="topimg" height="210px" width="185px">
+                    <p class="beloname" >International</p>
+                  </td>
+                 <td>
+                    <img src="https://ih1.redbubble.net/image.1983688822.0793/raf,360x360,075,t,fafafa:ca443f4786.jpg"class="allimg" height="210px" width="185px">
+                    <p class="beloname" > Retro Hits</p>
+                </td>
+                <td>
+                    <img src="https://www.forbesindia.com/media/images/2022/Feb/img_1755475_despitepodcasts'popularitytheindustryisstilllookingforitseconomicmodel.jpg" class="allimg" height="210px" width="185px">
+                    <p class="beloname" > Podcasts</p>
+                </td>
+                <td>
+                    <img src="https://musicradiocreative.com/cdn/shop/products/radio-jingles-pack-vol-1-725600_512x512.jpg?v=1679535024" class="allimg" height="210px" width="185px">
+                    <p class="beloname" > Radio</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="barhead" colspan="6" style="font-weight: bold; padding-left:25px; padding-top: 30px;padding-bottom:0px; font-family: proximanova-bold-webfont, Arial, sans-serif; font-size: 20px;">Featured Artists</td>
+            </tr>
+            <tr>
+                <td>
+                     <img style="border-radius: 50% !important;" src="https://a10.gaanacdn.com/gn_img/artists/Dk9KNk23Bx/k9KNqJJbBx/size_xl_1638898900.webp" class="allimg" height="210px" width="185px">
+                     <p class="beloname"  >Arijit Singh</p>
+                 </td>
+                <td>
+                     <img style="border-radius: 50% !important;" src="https://i.pinimg.com/474x/fb/0d/a5/fb0da58656f1262271bd7a12a5d285a5.jpg" class="allimg" height="210px" width="185px">
+                     <p class="beloname" >Dhvani Bhanushali</p>
+                </td>
+                <td>
+                     <img style="border-radius: 50% !important;" src="https://c.saavncdn.com/artists/KK_500x500.jpg" class="allimg" height="210px" width="185px">
+                     <p class="beloname" >KK</p>
+                    </td>
+                 <td>
+                    <img style="border-radius: 50% !important;" src="https://i1.sndcdn.com/artworks-7aHJSpbws9Y3fch4-15W4VA-t500x500.jpg" class="allimg" height="210px" width="185px">
+                    <p class="beloname" >Diljit Dosanjh</p>
+                </td>
+                <td>
+                    <img style="border-radius: 50% !important;" src="https://c.saavncdn.com/artists/Jubin_Nautiyal_003_20231130204020_500x500.jpg" class="allimg" height="210px" width="185px">
+                    <p class="beloname" >Jubin Nautiyal</p>
+                </td>
+                <td>
+                    <img style="border-radius: 50% !important;" src="https://yt3.googleusercontent.com/khrT8wBgXCmh5GBQ2xVYEOM31H4_Pa-Z954KeP7WVo_d9yfzkxgH_DLEPScE4DrLWTZ6pcf_dw=s900-c-k-c0x00ffffff-no-rj" class="allimg" height="210px" width="185px">
+                    <p class="beloname" >Shreya Ghoshal</p>
+                </td>
+
+            </tr>
+            <tr>
+                <td class="barhead" colspan="6" style="font-weight: bold; padding-left:25px; padding-top: 30px;padding-bottom:0px; font-family: proximanova-bold-webfont, Arial, sans-serif; font-size: 20px;">Top Genres & Moods</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="https://i.scdn.co/image/ab67616d0000b27354e544672baa16145d67612b" class="allimg" height="210px" width="185px" >
+                    <p class="beloname" >Soulful Sufi</p>
+                </td>
+                <td>
+                    <img src="https://djravish.com/wp-content/uploads/2023/02/daku-Flyer.jpg" class="allimg" height="210px" width="185px">
+                    <p class="beloname" >Desi HipHop</p>
+                </td>
+                <td>
+                    <img src="https://advantagedjs.com.au/wp-content/uploads/2022/01/6weyvic3n-y-1024x683.jpg" class="allimg" height="210px" width="185px">
+                    <p class="beloname" >Remixes</p>
+                </td>
+                <td>
+                    <img src="https://static.javatpoint.com/best/images/best-hindi-songs34.jpg" class="allimg" height="210px" width="185px">
+                    <p class="beloname" >Best Of Romance</p>
+                </td>
+                <td>
+                    <img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p13439192_p_v10_ab.jpg" class="allimg" height="210px" width="185px">
+                    <p class="beloname" >Chill Vibes</p>
+                </td>
+                <td>
+                    <img src="https://images.hungama.com/c/1/9d8/ff2/92807859/92807859_200x200.jpg" class="allimg" height="210px" width="185px">
+                    <p class="beloname" >Spiritual</p>
+                </td>
+                
+            </tr>
+            
+          </table>
+        </div>
+        <br><hr>
+
+        <footer>
+            <div class="container" style="width: 100%; ">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>Terms of Service</h4>
+                        <ul>
+                            <li><a href="/terms">Terms of Use</a></li>
+                            <li><a href="/privacy">Privacy Policy</a></li>
+                            <li><a href="/cookies">Cookie Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Connect With Us</h4>
+                        <ul>
+                            <li><a href="https://facebook.com/yourmusicplatform">Facebook</a></li>
+                            <li><a href="https://twitter.com/yourmusicplatform">Twitter</a></li>
+                            <li><a href="https://instagram.com/yourmusicplatform">Instagram</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Contact Us</h4>
+                        <p>Email: contact@grovegrid.com</p>
+                        <p>Phone: +1234567890</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+    </body>
+
+</html>
